@@ -1,0 +1,8 @@
+navigation * {
+    display: inline-block;
+    vertical-align: top;
+}
+
+navigation > ul {
+    width: 200px;
+}

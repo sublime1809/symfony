@@ -1,0 +1,14 @@
+{% extends "CRWorksBundle::layout.html.twig" %}
+
+{% block title 'Index' %}
+
+{% block body %}
+{% if display %}
+    Hello {{ name|upper }}!
+{% endif %}
+{% for i in 0..10 if not display %}
+    <div class="{{ cycle(['odd', 'even', 'middle'], i)}}">
+        Div
+    </div>
+{% endfor %}
+{% endblock %}

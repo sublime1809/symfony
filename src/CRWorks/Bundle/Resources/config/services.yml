@@ -1,0 +1,7 @@
+parameters:
+#    cr_works.example.class: CRWorks\Bundle\Example
+
+services:
+#    cr_works.example:
+#        class: %cr_works.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

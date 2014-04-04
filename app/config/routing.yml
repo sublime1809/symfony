@@ -1,0 +1,4 @@
+cr_works:
+    resource: "@CRWorksBundle/Resources/config/routing.yml"
+    prefix:   /
+

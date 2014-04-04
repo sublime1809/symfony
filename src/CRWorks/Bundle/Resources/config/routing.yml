@@ -1,0 +1,11 @@
+cr_works_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: CRWorksBundle:Default:index }
+    
+cr_works_login:
+    pattern: /login/{username}
+    defaults: { _controller: CRWorksBundle:Default:login }
+    
+cr_works_customize:
+    pattern: /customize
+    defaults: { _controller: CRWorksBundle:Default:customize }
